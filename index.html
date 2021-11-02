@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Happy Birthday</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Happy Birthday</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Global</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Поздравления</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#video" class="nav__link">Edit</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Любимая Очкомения</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="assets/img/home1.jpg" id="homeBack" alt="" class="home__img">
+            <img src="assets/img/home2.jpg" id="homeBack2" alt="" class="home__img" style="display: none;">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">От всей очкомении</span>
+                    <h1 class="home__data-title" id="DeDDen">Официальное посвящение в <b>деды<br></b></h1>
+                    <h1 class="home__data-title" id="DeDDen2" style="display: none;">Официальное посвящение в
+                        <b>♂️dungeon masters♂️<br></b>
+                    </h1>
+                </div>
+
+                <div class="home__social">
+                    <a target="_blank" class="home__social-link">
+                        &nbsp;
+                    </a>
+                    <a target="_blank" class="home__social-link">
+                        &nbsp;
+                    </a>
+                    <a target="_blank" class="home__social-link">
+                        &nbsp;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description" id="aboutDED">Уважаемый Кирилл Денисович, от лица всей Очкомении
+                        поздравляем вас с
+                        переходом в деды. Вам выдаётся полное оправдание на любые проблемы со здоровьем, а так же право
+                        заставлять проявлять уважение тех кто младше вас. Пускай ваша жизнь будет удачнее чем ваша
+                        карьера в ДСП
+                    </p>
+                    <p class="about__description" id="aboutDED2" style="display: none;">
+                        Уважаемый ♂Dungeon Master♂ Кирилл Денисович, от ♂fat cock♂ всей Очкомении ♂gachi♂'м вас с
+                        переходом в ♂Van Darkholm♂'ы. Вам выдаётся полное оправдание на любые ♂Dark Deep Fantasies♂ и
+                        проблемы со здоровьем, а так же право заставлять ♂SUCK SOME DICK♂ и заставлять проявлять
+                        ♂swallow cum♂ тех кто младше вас. Пускай ваша ♂gachi♂ жизнь будет удачнее чем ваша карьера в
+                        ДСП! ♂Ass we can!♂
+                    </p>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about1.jpg" alt="" id="about__imgOne" class="about__img-one">
+                        <img src="assets/img/about2.jpg" alt="" id="about__imgOne2" style="display: none;"
+                            class="about__img-one">
+                    </div>
+
+                    <div class="about__img-overlay">
+                        <img src="assets/img/about2.jpg" alt="" id="about__imgTwo" class="about__img-two">
+                        <img src="assets/img/about1.jpg" alt="" id="about__imgTwo2" style="display: none;"
+                            class="about__img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Поздравления</h2>
+
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <!--ПАША-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place7.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">Чтоб хрен стоял как 40 арденских егерей!</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <!--Артем-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place8.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">Ты — мальчишка золотой.
+                                16 лет — уже большой!
+                                С днем рожденья поздравляем!
+                                Пожеланья начинаем:
+                                Чтобы в классе ты был первым,
+                                Чтобы сам был другом верным,
+                                И хорошие друзья
+                                Чтоб тоже были у тебя!
+                                Чтоб от них тебе — признанье,
+                                В школе — по плечу заданья,
+                                От родителей — вниманье,
+                                И, конечно, пониманье!
+                                Чтоб характер был смешливым,
+                                Чтобы вырос ты счастливым!
+                                А сегодня, в день рожденья —
+                                Заводного настроенья!</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <!--Сидоров-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place6.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                Поздравляю Вас, Кирилл Денисович, с 16 -ти летием. Желаю вам чтобы портфель уходил
+                                только в плюс, а все лонги заходили на ура. Также чтобы все графики подходили под всеми
+                                любимого ♂Van Darkholm♂. Желаю удачи, здоровья чтобы ♂dick♂ стоял и ♂gachi♂ коины в
+                                кармане звенели.
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 4 ====================-->
+                    <!--Стеценко-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place10.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                С др тебя Кирюша, желаю тебе ценить то что у тебя уже
+                                есть и не пренебрегать этим</span>
+                        </div>
+                    </div>
+                    <!--==================== DISCOVER 5 ====================-->
+                    <!--Марина-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place3.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                Ну что, с днём рождения🎉🎉🎉 16 лет как никак, дом престарелых уже присматривать нужно,
+                                без огромной аптечки при себе теперь никуда, но не суть) перейду к основному, желаю
+                                солнышку всего самого лучшего, чтоб твоя жизнь ставила с каждым годом только красочней.
+                                Пусть все, чт ты задумал, осуществится. Безумно люблю тебя❤️, обнимаю💗 и ещё раз
+                                поздравляю свое солнышко с днём рождения 🎉🎉🎉
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 6 ====================-->
+                    <!--Ярик-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place5.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                Уважаемый Кирилл Денисович, я торжественно поздравляю вас с вашим днём рождения! Желаю
+                                вам ни капли ♂️semen in your ass♂️, терпения в отношениях, а также здравой оценки своих
+                                сил и возможностей.
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 7 ====================-->
+                    <!--Дима-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place9.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                Поздравляю Вас, Кирилл Денисович, с 16 -ти летием. Желаю вам чтобы портфель уходил
+                                только в плюс, а все лонги заходили на ура. Также чтобы все графики подходили под всеми
+                                любимого ♂Van Darkholm♂. Желаю удачи, здоровья чтобы ♂dick♂ стоял и ♂gachi♂ коины в
+                                кармане звенели.
+                            </span>
+                        </div>
+                    </div>
+                    <!--==================== DISCOVER 8 ====================-->
+                    <!--Глеб-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place11.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <img src="assets/img/discover11.jpg" alt="" class="discover__img">
+                            <span class="discover__description">
+                                Поздравление: "Приветствовать. Я представлять коммунист партия Китай и приносить наши
+                                поздравления Сильный Тигр Кирилл. Великий Нефритовый Стержень Хi гордиться ним!"
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!--==================== DISCOVER 9 ====================-->
+                    <!--Андрей-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place12.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                Поздравляю вас с вашим днем рождения, Кирилл Денисович. Вот вам и 16 лет, хотел бы
+                                пожелать вам чистой арабики в вашем кофе, выгодных дальносрочных инвестиций, скорейшего
+                                выхода ksp2 и оставить все наши разногласия в уходящей
+                                главе жизни.</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 10 ====================-->
+                    <!--Маша-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place4.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                Уважаемый Кирилл Денисович, поздравляю вас с становлением дедом (хотя для меня вы все
+                                еще мелочь). Пусть проблемы в вашей жизни появляются с такой же частотой как раммштайн
+                                выпускает альбомы, а удача приходит чаще чем вы вспоминаете охуенный кофеек в
+                                кафетерии.</span>
+                        </div>
+                    </div>
+                    <!--==================== DISCOVER 11 ====================-->
+                    <!--Швец-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place1.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                So, today I will ебать you во все щели all day long. Prepare твой anal для fisting
+                                without смазка. Love тебя мой daddy.
+                            </span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 12 ====================-->
+                    <!--Резник-->
+                    <div class="discover__card swiper-slide">
+                        <img src="assets/img/place2.jpg" alt="" class="discover__img">
+                        <div class="discover__data">
+                            <span class="discover__description">
+                                Поздравляю вас с вашим днем рождения, Кирилл Денисович. Вот вам и 16 лет, хотел бы
+                                пожелать вам чистой арабики в вашем кофе, выгодных дальносрочных инвестиций, скорейшего
+                                выхода ksp2 и оставить все наши разногласия в уходящей
+                                главе жизни.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--==================== VIDEO ====================-->
+        <section class="video section" id="video">
+            <h2 class="section__title">Edit</h2>
+            <div class="video__container container">
+                <div class="video__content">
+                    <video id="video-file">
+                        <source src="assets/video/video.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video__button" id="video-button">
+                        <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PLACES ====================-->
+        <section class="place section" id="place">
+            <h2 class="section__title">Любимая Очкомения</h2>
+
+            <div class="place__container container grid">
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place1.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Швец</h3>
+                            <span class="place__subtitle">Кирилл</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/kirillshveds?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place2.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Резник</h3>
+                            <span class="place__subtitle">Максим</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/maksym.reznik?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place3.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Чебыкина</h3>
+                            <span class="place__subtitle">Марина</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/soarina.ua?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+
+                <!--==================== PLACES CARD 4 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place4.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Кузнецова</h3>
+                            <span class="place__subtitle">Мария</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/_boooreed_?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+
+                <!--==================== PLACES CARD 5 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place5.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Зубец</h3>
+                            <span class="place__subtitle">Ярослав</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/z.missed?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+                <!--==================== PLACES CARD 6 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place6.jpg" alt="" class="place__img">
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Сидоров</h3>
+                            <span class="place__subtitle">Максим</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/your.sdnss?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+                <!--==================== PLACES CARD 7 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place7.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Логвинов</h3>
+                            <span class="place__subtitle">Павел</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/cholovek_2?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+
+                <!--==================== PLACES CARD 8 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place8.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Шугай</h3>
+                            <span class="place__subtitle">Артём</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/wqvxti?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+
+                <!--==================== PLACES CARD 9 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place9.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Резник</h3>
+                            <span class="place__subtitle">Дмитрий</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/cova_nochnaia?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+                <!--==================== PLACES CARD 10 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place10.jpg" alt="" class="place__img">
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Стеценко</h3>
+                            <span class="place__subtitle">Максим</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/stecenko.maxim?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+                <!--==================== PLACES CARD 11 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place11.jpg" alt="" class="place__img">
+
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Ишуткин</h3>
+                            <span class="place__subtitle">Глеб</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/cova_nochnaia?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+
+                        </button>
+                    </a>
+                </div>
+                <!--==================== PLACES CARD 12 ====================-->
+                <div class="place__card">
+                    <img src="assets/img/place12.jpg" alt="" class="place__img">
+                    <div class="place__content">
+                        <span class="place__rating">
+                        </span>
+                        <div class="place__data">
+                            <h3 class="place__title">Гастелло</h3>
+                            <span class="place__subtitle">Андрей</span>
+                        </div>
+                    </div>
+
+                    <a href="https://instagram.com/stecenko.maxim?utm_medium=copy_link">
+                        <button class="button button--flex place__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2021 Ochkomeni. All rigths reserved.</p>
+                    <div class="footer__terms">
+                        <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                        <a href="#" class="footer__terms-link">Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+</body>
+
+</html>
